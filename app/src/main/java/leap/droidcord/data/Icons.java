@@ -103,7 +103,7 @@ public class Icons {
             final Vector<WeakReference<ImageView>> references = imageViews.get(hash);
             imageViews.remove(hash);
 
-            if (ref == null)
+            if (references == null)
                 return;
 
             for (int i = 0; i < references.size(); i++) {
